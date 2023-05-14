@@ -1,0 +1,233 @@
+/**
+ * @Author: root
+ * @Date:   2023-05-13T00:32:43+05:30
+ * @Last modified by:   root
+ * @Last modified time: 2023-05-14T16:36:31+05:30
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.footer_container{
+  width: 1440px;
+  height: 362px;
+  position: relative;
+  top: 995px;
+  display: flex;
+  flex-direction: row;
+  background: #F8F8F8;
+}
+
+.footer_logo{
+  width: 25%;
+  height: 100%;
+}
+
+.footer_logo img{
+  width: 161px;
+  height: 125px;
+  margin-left: 103px;
+  margin-top: 123px;
+}
+
+.footer_contact{
+  width: 25%;
+  height: 100%;
+}
+
+.footer_contact_title {
+  position: absolute;
+  left:474px;
+  top: 84px;
+  width: 95px;
+  height: 27px;
+}
+
+.footer_contact_title p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.8433px;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  color: #0E2368;
+}
+
+.footer_contact_address{
+  top: 125px;
+  left: 475px;
+  position: absolute;
+  width: 217px;
+  height: 69px;
+}
+
+.footer_contact_address p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.6559px;
+  line-height: 23px;
+  color: #646874;
+}
+
+.footer_contact_mail{
+  top: 209px;
+  left: 474px;
+  position: absolute;
+  width: 232px;
+  height: 23px;
+}
+
+.footer_contact_mail p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.6559px;
+  line-height: 23px;
+  color: #646874;
+}
+
+.footer_contact_number{
+  top: 247px;
+  left: 474px;
+  position: absolute;
+  width: 91px;
+  height: 23px;
+}
+
+.footer_contact_number p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.6559px;
+  line-height: 23px;
+  text-align: center;
+  color: #646874;
+}
+
+.footer_more{
+  width: 25%;
+  height: 100%;
+}
+
+.footer_more_title{
+  top: 84px;
+  left: 898px;
+  position: absolute;
+  width: 43px;
+  height: 27px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.8433px;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  color: #0E2368;
+}
+
+
+
+.one{
+  top: 125px;
+  left: 898px;
+  position: absolute;
+  width: 75px;
+  height: 26px;
+}
+
+.two{
+  top: 165px;
+  left: 898px;
+  position: absolute;
+  width: 153px;
+  height: 26px;
+}
+
+.three{
+  top: 205px;
+  left: 898px;
+  position: absolute;
+  width: 86px;
+  height: 26px;
+}
+
+.four{
+  top: 244px;
+  left: 898px;
+  position: absolute;
+  width: 84px;
+  height: 26px;
+}
+
+.footer_more_items{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+  color: #646874;
+}
+
+.footer_social{
+  width: 25%;
+  height: 100%;
+}
+
+.footer_social_title{
+  top: 84px;
+  left: 1207px;
+  position: absolute;
+  width: 129px;
+  height: 27px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  color: #0E2368;
+}
+
+
+
+.i_logo{
+  top: 122px;
+  left: 1207px;
+  position: absolute;
+  width: 21px;
+  height: 21px;
+}
+
+
+.t_logo{
+  top: 124.78px;
+  left: 1264.59px;
+  position: absolute;
+  width: 129px;
+  height: 27px;
+}
+
+.f_logo{
+  top: 122px;
+  left: 1321.25px;
+  position: absolute;
+  width: 10.97px;
+  height: 21px;
+}
+
+.copy_right{
+  top: 245px;
+  left: 1139px;
+  position: absolute;
+  width: 197px;
+  height: 25px;
+  font-family: 'Roboto', sans-serif;;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.6559px;
+  line-height: 25px;
+  text-align: center;
+  color: #828B9C;
+
+}

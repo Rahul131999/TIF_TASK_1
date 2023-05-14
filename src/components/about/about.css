@@ -1,0 +1,154 @@
+/**
+ * @Author: root
+ * @Date:   2023-05-13T00:32:13+05:30
+ * @Last modified by:   root
+ * @Last modified time: 2023-05-14T22:40:39+05:30
+ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.about_container{
+  height: 653px;
+  width: 1440px;
+}
+
+@media only screen and (max-width:375px){
+  .about_container{
+    width:375px;
+    height:516;
+  }
+}
+
+.empty{
+  height: 186px;
+}
+
+@media only screen and (max-width:375px){
+  .empty{
+    display: none;
+  }
+}
+
+
+.about{
+  background: linear-gradient(90.07deg, rgba(30, 42, 93, 0.04) 30.91%, rgba(48, 62, 130, 0.04) 64.79%, rgba(60, 80, 157, 0.04) 91.94%);
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width:375px){
+  .about{
+    display: block;
+    background: #F0F1F7;
+  }
+}
+
+.about_left_container{
+  width: 50%;
+  height: 467px;
+}
+
+@media only screen and (max-width:375px){
+  .about_left_container{
+    display: none;
+  }
+}
+
+.about_right_container{
+  width: 50%;
+  height: 467px;
+}
+
+@media only screen and (max-width:375px){
+  .about_right_container{
+    width: 375px;
+    height: 516px;
+    position: absolute;
+  }
+}
+
+.about_left_container img{
+  margin-left: 205px;
+}
+
+.about_banner p{
+  margin-left: 84px;
+  width: 422px;
+  height: 26px;
+  margin-top: 107px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 27px;
+  font-family: 'Poppins', sans-serif;
+  color: #0E2368;
+}
+
+@media only screen and (max-width:375px){
+  .about_banner p{
+    position: absolute;
+    margin: 0px;
+    width: 121px;
+    height: 35px;
+    top: 140px;
+    left: 127px;
+    font-size: 26px;
+    line-height: 35px;
+  }
+}
+
+
+
+.about_para p{
+  margin-left: 84px;
+  margin-top: 27.41px;
+  width: 447px;
+  height: 138px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+  font-family: 'Open Sans', sans-serif;
+  color: #444957;
+}
+
+@media only screen and (max-width:375px){
+  .about_para p{
+    position: absolute;
+    margin: 0px;
+    width: 275px;
+    height: 138px;
+    top: 196px;
+    left: 50px;
+    font-size: 11px;
+    line-height: 21px;
+    text-align: center;
+  }
+}
+
+.about_read button{
+  margin-top: 21.59px;
+  margin-left: 84px;
+  width: 132px;
+  height: 42px;
+  background: #E23744;
+  border-radius: 21px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+}
+
+@media only screen and (max-width:375px){
+  .about_read button{
+    position: absolute;
+    margin: 0px;
+    width: 96px;
+    height: 35px;
+    top: 350px;
+    left: 139px;
+  }
+}
